@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*Header*/
+
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 0;
+  background-color: brown;
+}
+
+.nav ol{
+  display: flex;
+  gap: 60px;
+}
+
+.nav ol li{
+  list-style-type: none;
+}
+
+.nav ol li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 800;
+  font-size: 17px;
+  border-bottom: 1px solid #fff;
+}
+
+.conteudo-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2% 2%;
+}
+
+.container-section{
+  max-width: 450px;
+}
+
+.container-section h1{
+  color: brown;
+  text-align: center;
+}
+
+.container-section p{
+  text-align: center;
+}
+
+.img-section img{
+  width: 35vw;
+}
+
+
+/*Página de Login*/
+
+.container-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.form1{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.form1 label{
+  text-align: center;
+}
+
+.form1 input{
+  width: 40vw; height: 6vh;
+}
+
+#btn1{
+  width: 40vw; height: 6vh;
+}
+
+/* Página de Cadastro */
+
+.container-form2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.form2{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.container-form2 >label{
+  text-align: center;
+  font-size: 20px;
+}
+
+.form2 input{
+  width: 40vw; height: 6vh;
+}
+
+
+/*Página Students*/
+
+#table{
+  width: 60vw;
+  margin: 50px auto;
+}
+
