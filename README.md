@@ -32,6 +32,4 @@ Adição de Estudantes: Permite a inserção de novos estudantes no banco de dad
 Atualização de Estudantes: Possibilita a edição das informações de estudantes existentes, garantindo a consistência e precisão dos dados.
 
 Exclusão de Estudantes: Permite a remoção de estudantes do sistema, evitando registros desnecessários.
-
-Conclusão:
 O projeto "Lista de Estudantes" demonstra a aplicação prática de tecnologias web modernas para criar um sistema CRUD eficiente e amigável. Com uma arquitetura bem definida e a utilização de frameworks como Bootstrap, o projeto é escalável e pode ser expandido para incluir novas funcionalidades conforme necessário.
